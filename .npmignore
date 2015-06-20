@@ -9,3 +9,5 @@ test.js
 demo/
 .npmignore
 LICENSE.md
+example/
+example.png
