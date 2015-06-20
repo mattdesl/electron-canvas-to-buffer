@@ -16,6 +16,7 @@
     "tape": "^4.0.0"
   },
   "scripts": {
+    "example": "chromeo example/write.js > example.png",
     "test": "chromeo ./test.js --console | faucet"
   },
   "keywords": [
