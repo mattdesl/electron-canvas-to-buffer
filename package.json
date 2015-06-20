@@ -1,0 +1,41 @@
+{
+  "name": "electron-canvas-to-buffer",
+  "version": "1.0.0",
+  "description": "in Electron, turns a Canvas into a Buffer",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chromeo": "0.0.3",
+    "faucet": "0.0.1",
+    "tape": "^4.0.0"
+  },
+  "scripts": {
+    "test": "chromeo ./test.js --console | faucet"
+  },
+  "keywords": [
+    "canvas",
+    "buffer",
+    "native",
+    "electron",
+    "save",
+    "image",
+    "png",
+    "jpg",
+    "jpeg",
+    "native-image"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/electron-canvas-to-buffer.git"
+  },
+  "homepage": "https://github.com/mattdesl/electron-canvas-to-buffer",
+  "bugs": {
+    "url": "https://github.com/mattdesl/electron-canvas-to-buffer/issues"
+  }
+}
