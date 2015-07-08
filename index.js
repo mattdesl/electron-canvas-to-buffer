@@ -11,7 +11,7 @@ module.exports = function canvasBuffer (canvas, type, quality) {
   var data = canvas.toDataURL(type, quality)
   var img = nativeImage.createFromDataUrl(data)
   if (/^image\/jpe?g$/.test(type)) {
-    return img.toJpeg(quality)
+    return img.toJpeg(Math.floor(quality * 100))
   } else {
     return img.toPng()
   }
