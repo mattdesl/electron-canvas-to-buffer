@@ -49,7 +49,7 @@ npm install electron-canvas-to-buffer --save
 Returns a Buffer representing the specified `canvas` element. Parameters:
 
 - `type` (String) either `"image/png"` (default) or `"image/jpeg"`
-- `quality` (Number) for JPG, decides the encoding quality
+- `quality` (Number) for JPG, decides the encoding quality (default 0.9)
 
 ## License
 

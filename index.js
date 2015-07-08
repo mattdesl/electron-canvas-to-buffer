@@ -3,6 +3,7 @@ var types = ['image/png', 'image/jpg', 'image/jpeg']
 
 module.exports = function canvasBuffer (canvas, type, quality) {
   type = type || 'image/png'
+  quality = typeof quality === 'number' ? quality : 0.9
   if (types.indexOf(type) === -1) {
     throw new Error('unsupported image type ' + type)
   }
