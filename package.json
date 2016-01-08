@@ -1,6 +1,6 @@
 {
   "name": "electron-canvas-to-buffer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "in Electron, turns a Canvas into a Buffer",
   "main": "index.js",
   "license": "MIT",
