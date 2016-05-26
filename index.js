@@ -1,4 +1,4 @@
-var nativeImage = require('native-image')
+var nativeImage = require('electron').nativeImage
 var types = ['image/png', 'image/jpg', 'image/jpeg']
 
 module.exports = function canvasBuffer (canvas, type, quality) {
